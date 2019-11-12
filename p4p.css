@@ -1,6 +1,10 @@
+.carousel{
+	margin-top:6em;
+}
+
 .carousel-item{
-	height:75vh; 
-	background-color: darkgray;
+	height:65vh; 
+	background-color: rgb(108, 117, 125);
 }
 .caption-2{
 	text-align: left;
@@ -17,7 +21,7 @@
 
 
 @media (min-width: 576px) { .carousel-caption h1{
-	font-size: 2em;
+	font-size: 1.75em;
 } }
 
 @media (min-width: 768px) { 
@@ -32,12 +36,28 @@
 }
 
 div.c-slide{
-	height:75vh; 
+	height:65vh; 
 	background-repeat:no-repeat; 
 	background-size: cover; 
 	background-position: center;
 }
 
+.img-align {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+.img-align td {
+   vertical-align: middle;
+   text-align: center;
+}
+
+.img-align img{
+	max-height: 50%;
+}
 
 
 /*Nav Bar*/
@@ -83,6 +103,14 @@ font-size: 1.5em
 }
 
 
+h1.card-title{
+	font-size: 4em;
+	line-height: 1;
+}
+
+.card-img-overlay{
+	top:11%;
+}
 
 .fb-page iframe{
 	height: 350px !important;
