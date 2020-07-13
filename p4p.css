@@ -1,9 +1,38 @@
+
+a:link,
+a:visited{
+	color: #2D517D;
+}
+
+a:hover,
+a:active:{
+	rgba(2, 77, 169, 0.75);
+}
+
+h1{
+	color: #063063;
+}
+
+
+.carousel{
+	margin-top:6.5em;
+}
+
 .carousel-item{
-	height:75vh; 
-	background-color: darkgray;
+	height:65vh; 
+	background-color: rgba(108, 117, 125, .25);
+}
+
+.carousel-caption{
+	color: rgb(108, 117, 125)
 }
 .caption-2{
 	text-align: left;
+	bottom: initial;
+	padding-top: initial;
+    padding-bottom: initial;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .carousel-caption h1{
@@ -14,10 +43,21 @@
 	max-height: 12em;
 }
 
+.carousel-caption {
+	overflow: 	hidden;	
+}
+
+div.c-slide{
+	height:65vh; 
+	background-repeat:no-repeat; 
+	background-position:  right center; 
+	background-size: auto 100%;
+}
+
 
 
 @media (min-width: 576px) { .carousel-caption h1{
-	font-size: 2em;
+	font-size: 1.75em;
 } }
 
 @media (min-width: 768px) { 
@@ -25,19 +65,40 @@
 	font-size: 2.25em;
 }
 
- }
+.email {
+	width: 100%;
+}
 
-.carousel-caption {
-	overflow: 	hidden;	
+.sign-up{
+	font-size: small;
 }
 
 div.c-slide{
-	height:75vh; 
-	background-repeat:no-repeat; 
-	background-size: cover; 
-	background-position: center;
+	height:65vh; 
+	background-position:  center; 
 }
 
+ }
+
+
+
+.img-align {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+.img-align td {
+   vertical-align: middle;
+   text-align: center;
+   padding: 0;
+}
+
+.img-align img{
+	max-height: 65vh;
+}
 
 
 /*Nav Bar*/
@@ -82,7 +143,18 @@ footer a{
 font-size: 1.5em
 }
 
+footer{
+	font-size: small;
+}
 
+h1.card-title{
+	font-size: 4em;
+	line-height: 1;
+}
+
+.card-img-overlay{
+	top:11%;
+}
 
 .fb-page iframe{
 	height: 350px !important;
@@ -92,6 +164,13 @@ font-size: 1.5em
 	height: 100%;
 	display: block !important;
 }
+
+/*special styles*/
+.amazonsmile img{
+	border: 5px solid #fe9b02;
+}
+
+
 
 /* Event Card List CSS */
 .event-card-list {
