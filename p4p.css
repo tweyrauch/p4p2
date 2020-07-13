@@ -1,13 +1,38 @@
+
+a:link,
+a:visited{
+	color: #2D517D;
+}
+
+a:hover,
+a:active:{
+	rgba(2, 77, 169, 0.75);
+}
+
+h1{
+	color: #063063;
+}
+
+
 .carousel{
-	margin-top:6em;
+	margin-top:6.5em;
 }
 
 .carousel-item{
 	height:65vh; 
-	background-color: rgb(108, 117, 125);
+	background-color: rgba(108, 117, 125, .25);
+}
+
+.carousel-caption{
+	color: rgb(108, 117, 125)
 }
 .caption-2{
 	text-align: left;
+	bottom: initial;
+	padding-top: initial;
+    padding-bottom: initial;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .carousel-caption h1{
@@ -16,6 +41,17 @@
 
 .carousel-caption .row .col-12 img{
 	max-height: 12em;
+}
+
+.carousel-caption {
+	overflow: 	hidden;	
+}
+
+div.c-slide{
+	height:65vh; 
+	background-repeat:no-repeat; 
+	background-position:  right center; 
+	background-size: auto 100%;
 }
 
 
@@ -29,18 +65,22 @@
 	font-size: 2.25em;
 }
 
- }
+.email {
+	width: 100%;
+}
 
-.carousel-caption {
-	overflow: 	hidden;	
+.sign-up{
+	font-size: small;
 }
 
 div.c-slide{
 	height:65vh; 
-	background-repeat:no-repeat; 
-	background-size: cover; 
-	background-position: center;
+	background-position:  center; 
 }
+
+ }
+
+
 
 .img-align {
    height:100%;
@@ -53,10 +93,11 @@ div.c-slide{
 .img-align td {
    vertical-align: middle;
    text-align: center;
+   padding: 0;
 }
 
 .img-align img{
-	max-height: 50%;
+	max-height: 65vh;
 }
 
 
@@ -102,6 +143,9 @@ footer a{
 font-size: 1.5em
 }
 
+footer{
+	font-size: small;
+}
 
 h1.card-title{
 	font-size: 4em;
@@ -120,6 +164,13 @@ h1.card-title{
 	height: 100%;
 	display: block !important;
 }
+
+/*special styles*/
+.amazonsmile img{
+	border: 5px solid #fe9b02;
+}
+
+
 
 /* Event Card List CSS */
 .event-card-list {
