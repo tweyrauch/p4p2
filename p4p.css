@@ -4,9 +4,24 @@ a:visited{
 	color: #2D517D;
 }
 
+a.btn:link,
+a.btn:visited{
+	color: initial;
+}
+
+a.btn-outline-light:link,
+a.btn-outline-light:visited{
+	color: white;
+}
+
 a:hover,
 a:active:{
-	rgba(2, 77, 169, 0.75);
+	color:rgba(2, 77, 169, 0.75);
+}
+
+a.btn:hover,
+a.btn:active{
+	color: initial;
 }
 
 h1{
@@ -24,12 +39,13 @@ h2.font-weight-light{
 }
 
 .carousel-item{
-	height:65vh; 
+	height:80vh; 
 	background-color: rgba(108, 117, 125, .25);
 }
 
 .carousel-caption{
-	color: rgb(108, 117, 125)
+	color: rgb(108, 117, 125);
+	text-align:left;
 }
 .caption-2{
 	text-align: left;
@@ -53,20 +69,20 @@ h2.font-weight-light{
 }
 
 
-.adoption-carousel .carousel-item{
+.bg-image-carousel .carousel-item{
 	background-size: cover;
 	background-position: center;
 }
 
 
-.adoption-carousel .carousel-caption{
+.bg-image-carousel .carousel-caption{
 	color: white;
     background-color: #0000005c;
     width: 100%;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1em 2em 2em 2em;
+    padding: 1em 3em 2em 3em;
 }
 
 
