@@ -1,8 +1,10 @@
 
 a:link,
 a:visited{
-	color: #2D517D;
+	color: #2662ab;
 }
+
+
 
 a.btn:link,
 a.btn:visited{
@@ -22,6 +24,18 @@ a:active:{
 a.btn:hover,
 a.btn:active{
 	color: initial;
+}
+
+a.btn-outline-primary:link,
+a.btn-outline-primary:visited{
+	color: #2D517D;
+	border: 1px solid #2D517D;
+}
+
+a.btn-outline-primary:hover,
+a.btn-outline-primary:active{
+	color: white;
+	background-color: #2D517D;
 }
 
 h1{
@@ -196,6 +210,10 @@ footer{
 h1.card-title{
 	font-size: 4em;
 	line-height: 1;
+}
+
+.bg-light{
+	background-color: #f0f2f5 !important;
 }
 
 .card-img-overlay{
