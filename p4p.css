@@ -194,6 +194,10 @@ div.c-slide{
 	top: 1.15em;
 }
 
+.donate-button-dropdown{
+	width: 100%;
+}
+
 .text-danger{
 	color: #DC2B19;
 }
