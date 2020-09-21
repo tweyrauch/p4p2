@@ -38,6 +38,24 @@ a.btn-outline-primary:active{
 	background-color: #2D517D;
 }
 
+/*.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+a[href$=".pdf"]::after {
+    font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\2004\f1c1\2004";
+}
+
+a[href$=".pdf"]:hover{
+	text-decoration: none;
+}*/
+
 h1{
 	color: #063063;
 }
