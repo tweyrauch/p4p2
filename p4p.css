@@ -256,7 +256,9 @@ h1.card-title{
 	border: 5px solid #fe9b02;
 }
 
-
+.social-nav{
+	font-size: 2em;
+}
 
 /* Event Card List CSS */
 .event-card-list {
